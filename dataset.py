@@ -7,6 +7,7 @@ import torch
 import torch.nn.functional as F
 from torch.utils.data import Dataset
 
+
 def find_dim_min(vec, thr):
     high = vec.detach().cpu().numpy() >= thr
     return np.argmax(high)
