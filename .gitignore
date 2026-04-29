@@ -1,9 +1,21 @@
-Dataset_train/
-Dataset_test/
-Dataset_train_just_resampling/
-Dataset_validation/
-Dataset_validation_no_process/
-Dataset_test.zip
-Dataset_without_dublicates/
-/Dataset_test/
-/cps.zip
+dataset/
+
+# Other dataset-like folders/archives
+Dataset_*/
+*.zip
+
+# Python cache
+__pycache__/
+*.pyc
+
+# Jupyter
+.ipynb_checkpoints/
+
+# IDE files
+.idea/
+.vscode/
+
+# OS files
+.DS_Store
+Thumbs.db
+
