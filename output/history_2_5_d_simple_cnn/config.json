@@ -1,0 +1,18 @@
+{
+  "image_size": 224,
+  "num_windows": 128,
+  "window_size": 3,
+  "batch_size": 4,
+  "num_epochs": 50,
+  "learning_rate": 0.0001,
+  "weight_decay": 0.0001,
+  "num_workers": 4,
+  "prefetch_factor": 2,
+  "label_columns": [
+    "ICH"
+  ],
+  "train_csv": "/home/coder/project/jupyter/ich/ich-ct-classification/tags/train.csv",
+  "val_csv": "/home/coder/project/jupyter/ich/ich-ct-classification/tags/validation.csv",
+  "train_dir": "/home/coder/project/jupyter/ich/dataset/Dataset_train",
+  "val_dir": "/home/coder/project/jupyter/ich/dataset/Dataset_validation"
+}
