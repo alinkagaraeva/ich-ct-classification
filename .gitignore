@@ -19,3 +19,6 @@ __pycache__/
 .DS_Store
 Thumbs.db
 
+ds_lab_monitoring/
+output/**/checkpoint_epoch_*.pt
+
